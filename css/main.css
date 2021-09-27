@@ -1,0 +1,15 @@
+/* Global */
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+*, ::before, ::after { box-sizing: border-box; margin: 0; padding: 0;} 
+
+html {scroll-behavior: smooth;
+    font-size: 16px;}
+@font-face {
+    font-family: 'Norse';
+    src: url(https://github.com/TheOdinProject/theodinproject/blob/main/app/assets/fonts/Norse-Bold.otf);
+}
+
+body { font-family: "Andada Pro", serif; font-size: 1rem; overflow-x: hidden;} 
+
+.debug { border: 2px solid red;}
