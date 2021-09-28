@@ -6,10 +6,20 @@
 html {scroll-behavior: smooth;
     font-size: 16px;}
 @font-face {
-    font-family: 'Norse';
-    src: url(https://github.com/TheOdinProject/theodinproject/blob/main/app/assets/fonts/Norse-Bold.otf);
+    font-family: "Norse";
+    src: local("file://Users/linas/Documents/TOP_projects/odin-recipes/fonts/Norse-Bold.otf") format("opentype");
+    /* src: url("https://github.com/TheOdinProject/theodinproject/blob/main/app/assets/fonts/Norse-Bold.otf") format("opentype"); */
 }
 
 body { font-family: "Andada Pro", serif; font-size: 1rem; overflow-x: hidden;} 
 
 .debug { border: 2px solid red;}
+
+
+/* The Odin Project footer */
+
+.odin-text {
+    font-family: "Norse";
+    color: #cc9543;
+
+}
