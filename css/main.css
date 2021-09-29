@@ -67,5 +67,38 @@ header {
     align-items: center;
     height: 4rem;
     width: 100%;
-    box-shadow: 0px 5px 5px 0px rgba(90,90,90, 0.3);
+    box-shadow: 0px 5px 5px 0px rgba(90,90,90,0.3);
+}
+/******* Header End */
+
+/******* Main Start */
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 8rem;
+}
+
+.recipe-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 10px 0px rgba(90,90,90,0.3);
+    padding: 1rem;
+    transition: box-shadow ease-in-out 0.3s;
+    border-radius: 5px;
+}
+.recipe-group:hover {
+    box-shadow: 0 0 30px 0px rgba(90,90,90,0.6);
+}
+.recipe-img {
+    height: 15rem;
+    border-radius: 5px;
+}
+.recipe-txt {
+    margin-top: 0.5rem;
+}
+.recipe-txt:hover {
+    color: gray;
 }
