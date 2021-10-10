@@ -82,6 +82,7 @@ main {
     flex-grow: 0;
     padding-top: 5rem;
     padding-bottom: 5rem;
+    width: 100%;
 }
 
 .recipe-tile-group {
@@ -106,4 +107,30 @@ main {
 }
 .recipe-tile-txt:hover {
     color: gray;
+}
+@media screen and (max-width: 50em) {
+    .recipe-group {
+        flex-direction: column;
+    }
+    .size {
+        width: 90vw;
+    }
+    footer p {
+        display: none;
+    }
+    .profile-group {
+        padding-left: 0.1rem;
+    }
+    .recipe-ingredients {
+        padding-left: unset;
+    }
+}
+
+@media screen and (max-width: 30em) {
+    footer span {
+        display: none;
+    }
+    .recipe-tile-img {
+        width: 80vw;
+    }
 }
