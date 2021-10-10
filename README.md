@@ -9,4 +9,6 @@ Through this project learned and/or revised:
 * basic git - add, commit, push, status, ignore
 * basic cmd - cd, cp, rm 
 
-(Live link)[https://paulauskas-linas.github.io/odin-recipes/index.html]
+[Live link](https://paulauskas-linas.github.io/odin-recipes/index.html)
+
+If by any chance, you tried to cook one of the dishes, let me know how it tasted.
