@@ -104,6 +104,7 @@ main {
 }
 .recipe-tile-txt {
     margin-top: 0.5rem;
+    
 }
 .recipe-tile-txt:hover {
     color: gray;
@@ -130,7 +131,7 @@ main {
     footer span {
         display: none;
     }
-    .recipe-tile-img {
+    .recipe-tile-img, .recipe-tile-txt {
         width: 80vw;
     }
 }
